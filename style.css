@@ -413,6 +413,7 @@ li a.active{
 }
 
 .article{
+			color :black;
     height:600px;
     width: 100%;
     padding-top: 60px;
@@ -809,6 +810,7 @@ footer ul a{
         text-align: center;
     }
     .article{
+						color :black;
         height: 590px;
         width: 100%;
         padding-top: 8px;
