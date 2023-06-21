@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/d52ba999ed.js" crossorigin="anonymous"></script>
+    <title>Zwehanna</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="menu-icon">
+            <span class="icon"></span>
+            <span class="icon"></span>
+            <span class="icon"></span>
+          </div>
+          <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="cart.html">Products</a></li>
+            <li><a href="article1.html">Articles</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    <section class="promo">
+        <div id="rel">
+            <h4>PROMO</h4>
+            <p><small>BUY</small> INHEMETER <small>MFG</small>
+        <em>DDZ1513</em><br><small> FROM </small><em>R199</em></p>
+            <p id="abs">
+                <button type="button" value="Purchase"><a href="cart.html">Order</a></button>
+                <a href="cart.html"><small>More about the product...</small></a>
+                <img src="./pictures/product/MeterBox.jpg">
+            </p>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./Home.jpg">
+        </div>
+        <div>
+           <div class="about-text">
+               <h1>About</h1>
+               <h5>THE MERCHANT <small>est.2021</small></h5>
+                    <p><!-----compeling article----->
+                         Zwehanna has an organizational dream of helping in building a community in 
+                         which property investors actually thrive.We endeavor to reach our organizational 
+                         dream through finding innovative ways in which we can...<br>
+                      <button type="button" >
+                        <a href="about.html">Read More...</a>
+                      </button></p>
+                    </div>
+        </div>
+</section>
+    <section class="article">
+            <h1>Articles</h1>
+        <h2>The Lok-shin Economist</h2>
+    <p>  Helping the landlords build their wealth at least with one stress less. Over the past months, with many of us not understanding how 
+    economics work or how the monetary and fiscal policy actually have to align in order for the country's economic to thrive, we were just
+     confused over how the taxes and government budgets were adjusted, but mostly as for us together with our partners, 
+     the property owners whose bond is still on, we were more shocked over the continuous increase in the repo rate(prime lending rate) 
+     which ultimately increased bond repayments leaving many of the property investors cash strapped....</p>
+            <button type="button" >
+            <p><a href="article1.html.">Read More...</a></p>
+            </button>
+      </div>
+    </section>
+    <div class="Contact">
+        <form id="contact" action="sendmail.php" method="POST">
+            <fieldset>
+                <legend>CONTACT US</legend>
+                    Name:<br>
+                    <input type="text" name="name"><br>
+                    Surname:<br>
+                    <input type="text" name="surname"><br>
+                    Email:<spanclass="required">(Requred)</spanclass><br>
+                    <input type="email" name="email"><br>
+                    Contact No:<br>
+                    <input type="text" name="contact"><br>
+                    Query Type:<br>
+                    <select name="subject">
+                        <option value="choose">Select</option>
+                        <option value="choose">Our services</option>
+                        <option value="choose">Other related bussiness</option>
+                    </select><br>
+                    Message:<br>
+                    <textarea name="message" rows="10" cols="80" placeholder="Type your message here..."></textarea><br>
+                    <input type="submit" value="submit"/><br>
+            </fieldset>
+        </form>
+    </div>
+    <footer id="footer">
+        <div class="container-footer">
+            <p><small>&copy;2023 Ussicolised.connect<br></small></p>
+         <ul class="links">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><li><a href="cart.html">Products</a></li>
+            <li><a href="article1.html">Articles</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul><br>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

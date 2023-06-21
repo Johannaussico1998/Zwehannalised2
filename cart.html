@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Cart</title>
+</head>
+<body>
+  <header style="height: 20vh";>
+      <nav>
+        <div class="menu-icon">
+          <span class="icon"></span>
+          <span class="icon"></span>
+          <span class="icon"></span>
+        </div>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="cart.html">Products</a></li>
+          <li><a href="article1.html">Articles</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  <section class="products-container">
+  <div id="cart">
+  <h2>Shopping Cart</h2>
+  <ul id="cart-items">
+  </ul>
+  <button id="checkout-button"><a href="payment.html">Checkout</a></button>
+</div>
+  <h2>Products</h2><br>
+  <div class="product-content">
+  <div id="products">
+      <div class="product-box">
+      <span><img src="./pictures/MeterBox.jpg"></span><br>
+      <h2 class="product-title">Meter Box1</h2>
+      <span class="product-price">R199</span>
+      <button class="add-to-cart" data-name="Product 1" data-price="199">Add to Cart</button>
+</div>
+  </div>
+  </section>
+  <footer id="footer">
+    <div class="container-footer">
+        <p><small>&copy;2023 Ussicolised.connect<br></small></p>
+     <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><li><a class="active" href="cart.html">Products</a></li>
+        <li><a href="article1.html">Articles</a></li>
+        <li><a  href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</footer>
+
+<script src="cart.js"></script>
+
+</body>
+</html>
