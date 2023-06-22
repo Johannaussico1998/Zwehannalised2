@@ -846,7 +846,7 @@ footer ul a{
         border: 2px solid white;
         font-weight:normal;
         padding: 1px 5px;
-        margin-left: 150px;
+        margin-left: 100px;
         border-radius: 30px;
         transition: .4s;
     }
@@ -856,7 +856,7 @@ footer ul a{
 
     }
     .first-article{
-        height: 2000px;
+        height: 2300px;
     }
     .first-article p{
         text-align:left;
