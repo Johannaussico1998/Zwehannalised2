@@ -134,9 +134,9 @@ li a.active{
 
 }
 .about{
-			color:black;
+			color:white;
     margin-top: -90px;
-    background-color:white;
+    background-color:black;
     display: grid;
     grid-template-columns: repeat(2,2fr);
     align-items: center;
@@ -152,7 +152,7 @@ li a.active{
 
 }
 .about h1{
-    color: black;
+    color:white;
     font-size: 80px;
     padding: 2px 15px;
     text-transform: capitalize;
@@ -162,7 +162,7 @@ li a.active{
 }
 .about h5{
     margin-top: 5px;
-    color: black;
+    color: white ;
     font-size: 25px;
     padding: 2px 15px;
     text-transform: capitalize;
@@ -180,7 +180,7 @@ li a.active{
 .about a{
     text-decoration: none;
     font-size: 16px;
-    color:white;
+    color:black;
 }
 .main{
     width: 1130px;
@@ -193,7 +193,7 @@ li a.active{
 .about button{
     margin-top: 5%;
     color: rgba(245, 238, 238, 0.281);
-    background-color: black;
+    background-color: white;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
