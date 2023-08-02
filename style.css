@@ -134,7 +134,7 @@ li a.active{
 
 }
 .about{
-			color:white;
+			color:black;
     margin-top: -90px;
     background-color:#959595 ;
     display: grid;
@@ -152,7 +152,7 @@ li a.active{
 
 }
 .about h1{
-    color:white;
+    color:black;
     font-size: 80px;
     padding: 2px 15px;
     text-transform: capitalize;
@@ -162,7 +162,7 @@ li a.active{
 }
 .about h5{
     margin-top: 5px;
-    color: white ;
+    color: black ;
     font-size: 25px;
     padding: 2px 15px;
     text-transform: capitalize;
@@ -193,7 +193,7 @@ li a.active{
 .about button{
     margin-top: 5%;
     color: rgba(245, 238, 238, 0.281);
-    background-color: white;
+    background-color: black;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
