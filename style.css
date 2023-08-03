@@ -192,9 +192,9 @@ li a.active{
 .about button{
     margin-top: 5%;
     color:white;
-    background-color: black;
+    background-color: transparent;
     text-decoration: none;
-    border: 2px solid transparent;
+    border: 2px solid black;
     font-weight: bold;
     padding: 13px 50px;
     border-radius: 30px;
