@@ -883,7 +883,7 @@ footer ul a{
     }
     fieldset{
         height: 600px;
-        border-radius: 10px;
+        border:none;
     }
     legend{
         padding-top: 5px;
