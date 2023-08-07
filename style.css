@@ -886,7 +886,8 @@ footer ul a{
         border:none;
     }
     legend{
-        padding-top: 5px;
+        padding-top:10px;
+							Font-size :15px;
     }
     input[type="submit"]{
         padding:10px 15px;
