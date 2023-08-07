@@ -145,7 +145,7 @@ li a.active{
 }
 .about img{
     height: auto;
-    width: 300px;
+    width: 380px;
     max-width: 100%;
     margin-left: 80px;
 
@@ -685,7 +685,7 @@ footer ul a{
         margin-left: -50px;
         text-align: center;
         margin-bottom: 30px;
-        width: 350px;
+        width: 280px;
     }
     .about h1{
         font-size: 60px;
