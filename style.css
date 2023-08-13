@@ -536,7 +536,12 @@ fieldset{
     border-radius: 10px;
 }
 form h1{
-    padding-top: 5px;
+    padding-top: 15px;
+     font-size: 80px; 
+     padding: 2px 15px; 
+     text-transform: capitalize; 
+     margin-bottom: 10px; 
+     letter-spacing: 2px;
 }
 input[type="submit"]{
     padding:5px 20px;
